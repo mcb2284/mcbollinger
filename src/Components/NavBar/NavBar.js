@@ -45,8 +45,8 @@ function NavBar() {
 	};
 
 	return (
-		<AppBar position="absolute" color="transparent" elevation={0}>
-			<Container maxWidth="xl" sx={{ bgcolor: "rgba(31, 36, 46, 0.1)" }}>
+		<AppBar position="fixed" color="transparent" elevation={0}>
+			<Container maxWidth="xl" sx={{ bgcolor: "rgba(31, 36, 46, 0.8)" }}>
 				<Toolbar disableGutters>
 					<Typography
 						variant="h6"

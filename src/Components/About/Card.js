@@ -20,13 +20,6 @@ const style = {
 	padding: 1
 };
 
-function FavoriteIcon() {
-	return null;
-}
-
-function ShareIcon() {
-	return null;
-}
 
 export default function ActionAreaCard(props) {
 
