@@ -12,28 +12,34 @@ const data = {
 		name: "Columbia University",
 		dates: "September 2019 - May 2023",
 		img: { columbia_img },
+		website: "https://www.columbia.edu/",
 		description:
-			"Columbia University is a private Ivy League research university in New York City. " +
-			"Established in 1754 on the grounds of Trinity Church in Manhattan, " +
-			"Columbia is the oldest institution of higher education in New York and " +
-			"the fifth-oldest institution of higher learning in the United States. " +
-			"It is one of nine colonial colleges founded prior to the Declaration of Independence, " +
-			"seven of which belong to the Ivy League. Columbia is ranked among the top " +
-			"universities in the world by major education publications.",
+			"Bachelor of Arts – Computer Science, \n" +
+			"Dean’s List,\n" +
+			"Service Award for Academics and Leadership,\n" +
+			"Director of Veteran Health for Columbia University Military Veterans in 2020",
 	},
 	ranger: {
 		name: "75th Ranger Regiment",
 		dates: "February 2012 - June 2019",
 		img: { ranger },
+		website: "https://www.army.mil/ranger/",
 		description:
-			"",
+			"Directly participated in the planning and execution of missions in accordance with United States foreign policy.\n" +
+			"Conducted joint training missions with special operations units from Germany, England, and Italy to improve our ability\n" +
+			"to plan, train, and operate synchronously with foreign militaries.\n" +
+			"Operated as a hand-selected team member with partner forces in foreign militaries. Maintained a high mission success\n" +
+			"rate and succeeded in the development and execution of non-standard operations.",
 	},
 	amazon: {
 		name: "Amazon",
 		dates: "June 2022 - August 2022",
 		img: { amazon },
+		website:"https://www.amazon.com",
 		description:
-			"",
+			"Successfully completed an internship at Amazon, where I worked as a Cloud Developer at Ring and utilized Go and Docker to improve the integration testing suite\n" +
+			"Implemented new features to the integration testing suite, including code coverage and the ability to compute total coverage using unit and integration tests\n" +
+			"Applied these updates to 21 different microservices, resulting in enhanced testing and code coverage across the organization.",
 	},
 };
 
