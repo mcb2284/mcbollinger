@@ -26,26 +26,14 @@ const data = {
 		dates: "February 2012 - June 2019",
 		img: { ranger },
 		description:
-			"Columbia University is a private Ivy League research university in New York City. " +
-			"Established in 1754 on the grounds of Trinity Church in Manhattan, " +
-			"Columbia is the oldest institution of higher education in New York and " +
-			"the fifth-oldest institution of higher learning in the United States. " +
-			"It is one of nine colonial colleges founded prior to the Declaration of Independence, " +
-			"seven of which belong to the Ivy League. Columbia is ranked among the top " +
-			"universities in the world by major education publications.",
+			"",
 	},
 	amazon: {
 		name: "Amazon",
 		dates: "June 2022 - August 2022",
 		img: { amazon },
 		description:
-			"Columbia University is a private Ivy League research university in New York City. " +
-			"Established in 1754 on the grounds of Trinity Church in Manhattan, " +
-			"Columbia is the oldest institution of higher education in New York and " +
-			"the fifth-oldest institution of higher learning in the United States. " +
-			"It is one of nine colonial colleges founded prior to the Declaration of Independence, " +
-			"seven of which belong to the Ivy League. Columbia is ranked among the top " +
-			"universities in the world by major education publications.",
+			"",
 	},
 };
 
