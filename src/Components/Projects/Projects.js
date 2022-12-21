@@ -9,7 +9,7 @@ const data = {
 	portfolio: {
 		name: "Portfolio Website",
 		img: { mcbollinger },
-		website: "https://www.columbia.edu/",
+		website: "https://github.com/mcb2284/mcbollinger",
 		description:
 			"Personal website I made using react in order to have " +
 			"a central location to share my projects and achievements." +
