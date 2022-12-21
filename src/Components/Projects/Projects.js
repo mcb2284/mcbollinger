@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import React from "react";
 import { Grid } from "@mui/material";
 import ProjectCard from "./Card";
-import mcbollinger from "../../Images/mcbollinger.jpeg";
+import mcbollinger from "../../Images/mcbollinger.jpg";
 
 const data = {
 	portfolio: {
