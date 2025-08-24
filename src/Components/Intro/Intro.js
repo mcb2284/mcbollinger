@@ -1,7 +1,5 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import { Grid } from "@mui/material";
-import laptopSVG from "../../Images/workspace.svg";
 
 export default function Intro() {
   return (
@@ -9,45 +7,27 @@ export default function Intro() {
       className="landing-sec"
       id="Intro"
       sx={{
-        margin: "5vh 5vw",
+        width: "100%",
         padding: "30px",
+        backgroundColor: "black", // Box background
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center", // horizontal centering
+        justifyContent: "center",
       }}
     >
       <Typography
-        variant="h4"
+        variant="h1"
+        display="inline"
         sx={{
           fontWeight: "300",
-          fontFamily: "roboto",
+          fontFamily: "Ruigslay",
+          color: "#e76f51", // Text color
+          textAlign: "center",
         }}
       >
         {" "}
-        Welcome! My name is
-      </Typography>
-      <Typography variant="h3" display="inline" sx={{ fontFamily: "roboto" }}>
-        {" "}
-        Michael Bollinger.
-      </Typography>
-      <Grid container>
-        <Grid item xs={6} sm={6}>
-          <Typography variant="h5" sx={{ fontFamily: "roboto" }}>
-            {" "}
-            I am a software engineer.
-          </Typography>
-        </Grid>
-      </Grid>
-      <img
-        className="landing-img"
-        src={laptopSVG}
-        alt="laptop"
-        style={{ height: 200, zIndex: "1" }}
-      />
-      <Typography
-        variant="h6"
-        textAlign="center"
-        sx={{ fontFamily: "roboto", margin: "15px" }}
-      >
-        {" "}
-        "The best way to predict the future is to invent it."
+        Michael Bollinger
       </Typography>
     </Box>
   );
