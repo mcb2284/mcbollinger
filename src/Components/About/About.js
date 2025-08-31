@@ -6,6 +6,7 @@ import AboutCard from "./Card";
 import columbia_img from "../../Images/columbia_university.jpg";
 import ranger from "../../Images/ranger.jpg";
 import amazon from "../../Images/amazon.png";
+import comp from "../../Images/comp.jpg";
 
 const data = {
   columbia: {
@@ -45,33 +46,85 @@ const data = {
 
 function About() {
   return (
-    <Grid container sx={{ marginTop: "40px" }}>
-      <Typography
-        variant="h4"
-        id="About"
+    <Grid
+      container
+      spacing={2}
+      columns={12}
+      direction="row"
+      sx={{
+        marginTop: "40px",
+        marginLeft: "10px",
+        marginRight: "10px",
+        paddingY: "20px",
+        backgroundColor: "#FDF7D2",
+        borderRadius: "16px",
+        width: "100%",
+      }}
+    >
+      <Grid size={6} xs={12}>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-around",
+            alignItems: "center",
+          }}
+        >
+          <Typography
+            variant="h4"
+            sx={{
+              margin: "0 6vw",
+              fontFamily: "Arkitech Bold",
+            }}
+          >
+            Overview
+          </Typography>
+          <Typography
+            variant="body1"
+            sx={{
+              margin: "0 6vw",
+              fontFamily: "Arkitech Regular",
+            }}
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+            odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla
+            quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent
+            mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+            Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad
+            litora torquent per conubia nostra, per inceptos himenaeos.
+            Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.
+            Curabitur tortor. Pellentesque nibh. Aenean quam. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit. Integer nec odio. Praesent
+            libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at
+            nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
+            Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum
+            lacinia arcu eget nulla.
+          </Typography>
+        </Box>
+      </Grid>
+      <Grid
+        size={6}
+        xs={12}
         sx={{
-          margin: "0 6vw",
-          fontFamily: "Arkitech Bold",
-        }}
-      >
-        Overview
-      </Typography>
-      <Box
-        className="landing-sec"
-        sx={{
-          width: "80vw",
           display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-around",
-          alignItems: "space-around",
-          margin: "0 5vw",
-          padding: "30px",
-          backgroundColor: "#FDF7D2",
-          borderRadius: "16px", // <-- Add this line
+          alignItems: "flex-start",
+          justifyContent: "center",
         }}
       >
-        lorem ipsum
-      </Box>
+        <Box
+          component="img"
+          src={comp}
+          alt="Everything is Computer"
+          sx={{
+            width: "100%",
+            height: "auto",
+            borderRadius: "16px",
+            maxWidth: "400px",
+            objectFit: "cover",
+            boxShadow: 3,
+          }}
+        />
+      </Grid>
     </Grid>
   );
 }
